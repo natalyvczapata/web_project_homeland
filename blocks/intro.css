@@ -1,0 +1,140 @@
+
+
+.intro{
+width: 830px;
+height: 607px;
+margin: 92px 302px 92px 148px;
+}
+
+.intro__title {
+font-weight: bold;
+font-size: 54px;
+font-family: "Inter";
+text-align: left;
+line-height: 58px;
+height: 173px;
+width: 830px;
+margin: 0 302px 40px 0;
+}
+
+.intro__quote{
+font-size: 24px;
+font-weight: 400;
+font-family: "Inter";
+line-height: 34px;
+text-align: left;
+margin: 0 92px 0 10px;
+width: 738px;
+height: 135px;
+}
+
+.intro__quote-author {
+font-family: "Inter";
+font-size: 24px;
+font-weight: 400;
+line-height: 34px;
+text-align: right;
+width: 732px;
+margin: 0 98px 32px 0;
+}
+
+
+.intro__paragraph {
+font-family: "Inter";
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+text-align: left;
+width: 722px;
+height: 181px;
+margin: 0 108px 92px 0;
+}
+
+
+
+@media screen AND (max-width: 768px) {
+  .intro {
+    width: 720px;
+    height: 573px;
+    margin: 90px 24px 88px;
+  }
+
+
+
+  .intro__title {
+    font-size: 45px;
+    line-height: 49px;
+    height: 147px;
+    margin-right: 13px;
+    width: 707px;
+    max-width: 100%;
+  }
+
+  .intro__quote {
+    font-size: 24px;
+    line-height: 34px;
+    width: 720px;
+    height: 136px;
+    margin-top: 50px;
+    margin-right: 0;
+  }
+
+  .intro__quote-author {
+   font-size: 24px;
+   line-height: 34px;
+   height: 34px;
+   width: 720px;
+   max-width: 100%;
+
+  }
+
+  .intro__paragraph{
+    font-size: 16px;
+    height: 182px;
+    width: 720px;
+    max-width: 100%;
+    margin-right: 0;
+    margin-bottom: 0;
+  }
+
+}
+
+@media screen AND (max-width: 320px) {
+  .intro {
+    width: 288px;
+    height: 1033px;
+    margin: 64px 16px;
+  }
+
+  .intro__title {
+   font-size: 32px;
+   line-height: 35px;
+   height: 175px;
+   width: 288px;
+   margin-left: 13px;
+  }
+
+  .intro__quote {
+   font-size: 23px;
+   line-height: 30px;
+   height: 300px;
+   width: 288px;
+   max-width: 100%;
+   margin-top: 40px;
+   margin-right: 0px
+  }
+
+  .intro__quote-author {
+    font-size: 20px;
+    line-height: 34px;
+    height: 34px;
+    width: 288px;
+  }
+
+  .intro__paragraph {
+    height: 442px;
+    width: 288px;
+    margin-right: 0;
+    margin-bottom: 0;
+  }
+}
