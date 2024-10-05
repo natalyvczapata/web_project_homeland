@@ -1,4 +1,4 @@
-.footer {
+.footer__copyright {
   font-size: 16px;
   height: 16px;
   width: 194px;
@@ -9,7 +9,7 @@
 
 
 @media screen AND (max-width: 768px) {
-.footer {
+.footer__copyright {
     width: 194px;
     height: 16px;
     margin: 0 283px 24px;
@@ -19,7 +19,7 @@
 
 
 @media screen AND (max-width: 320px) {
-   .footer {
+   .footer__copyright {
     width: 194px;
     height: 14px;
     margin: 0 63px 24px;
